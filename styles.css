@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 100;
+    
+}
+img{
+    height: 220px;
+    width: 220px;
+    float: right;
+
+    
+    
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+    color: #00bcd4;
+}
+
+/* Home Section */
+.home {
+    background: #00bcd4;
+    color: white;
+    text-align: center;
+    padding: 80px 80px;
+    height: 400px;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+.home p {
+    font-size: 20px;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Skills Section */
+.Skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: center;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,84,9,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.Skills-item {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,84,9,1) 35%, rgba(0,212,255,1) 100%);
+
+    padding: 20px;
+    border-radius: 8px;
+    display: centre;
+    text-align: center;
+}
+
+.Skills-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Skills-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text align-items: centre;
+}
+
+/* Contact Section */
+.contact  {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.contact {
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
